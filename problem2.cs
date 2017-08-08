@@ -4,7 +4,7 @@ class problem2 {
 
 	static void Main(String[] args) {
 		Console.WriteLine("Write the value of n and r");
-		String numbers = Console.ReadLine();
+		String numbers = Console.ReadLine(); //Please write like: number,number Not space please
 		int comma = numbers.IndexOf(',');
 		int n = Int32.Parse(numbers.Substring(0, comma));
 		int r = Int32.Parse(numbers.Substring(comma + 1));
