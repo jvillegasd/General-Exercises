@@ -4,11 +4,11 @@ class problem3{
 	static void Main(String[] args){
 		int lenght;
 		int[] vector = new int[100];
-		Console.WriteLine("Set the lenght of the vector:");
+		Console.WriteLine("Set the lenght of the array:");
 		lenght = Int32.Parse(Console.ReadLine());
 		vector = setVector(vector, lenght, 0);
 		vector = sortVector(vector, 0, lenght);
-		for(int i = 0; i < lenght; i++){
+		for(int i = 0; i < lenght; i++){ //print the result
 			Console.WriteLine(vector[i]);
 		}
 	}
