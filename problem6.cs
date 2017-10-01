@@ -8,16 +8,16 @@ class problem6{
 		Console.WriteLine("Write n:");
 		n = Int32.Parse(Console.ReadLine());
 		if(m > n){
-			Console.WriteLine("MCD of {0}, and {1} is = {2}", m, n, getMCD(m, n));
+			Console.WriteLine("GCD of {0}, and {1} is = {2}", m, n, getGCD(m, n));
 		}else{
-			Console.WriteLine("MCD of {0], and {1} is = {2}", n, m, getMCD(n, m));
+			Console.WriteLine("GCD of {0}, and {1} is = {2}", n, m, getGCD(n, m));
 		}
 	}
 
-	static double getMCD(double m, double n){
+	static double getGCD(double m, double n){
 		if(n == 0){
 			return m;
 		}
-		return getMCD(n, m % n);
+		return getGCD(n, m % n);
 	}
 }
