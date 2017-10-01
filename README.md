@@ -1,4 +1,4 @@
-# Recursivity-Exercises
+# Recursion exercises
 I will post here several recursivity exercises that i will do.
 
 Problems:
@@ -9,3 +9,4 @@ Problems:
 5) Write a recursive function that get the sum of pair integers from "N" to 2.
 6) Write a recursive function that get the  GCD (greatest common divisor) of "m" and "n" like that: MCD = m if n ==0, MCD = MCD(n, m mod n) if n != 0. If m < n, the code will switch that.
 7) Write a recursive function for convert a number to binary notation.
+8) Write a recursive function for convert a binary number to base 10 number.
