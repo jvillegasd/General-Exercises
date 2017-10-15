@@ -10,3 +10,6 @@ Problems:
 6) Write a recursive function that get the  GCD (greatest common divisor) of "m" and "n" like that: GCD = m if n ==0, if n != 0 then GCD = GCD(n, m mod n). If m < n, the code will switch the variable.
 7) Write a recursive function for convert a number to binary notation.
 8) Write a recursive function for convert a binary number to base 10 number.
+9) Write a recursive function for get the sum of all elements of an integer array.
+10) Write a recursive function for invert an integer array.
+14) UVA 10014.
