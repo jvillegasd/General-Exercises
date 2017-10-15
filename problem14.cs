@@ -39,6 +39,6 @@ class problem14{ //UVA 10014
     ecuation 1 so the final ecuation is: 4 * a(n - 1) = 2 * a(n - 2) + a(n - 1) + a(n + 1) - 4 * c(n - 1) - 2 * c(n),
     3 * a(n - 1) = 2 * a(n - 2) + a(n + 1) - 4 * c(n - 1) - 2 * c(n), the pattern is when you get k cases before n case,
     you will finish at a(1) case (we need it!) and the ecuation always be:
-    (z + 1) * a(n - z - 1) = z * a(n - z) + a(n + 1) - 2 * z * c(n - z - 1) - 2 * (z - 1) * c(n - z - 2) *...* 2 * c(n) when z is
+    (z + 1) * a(n - z + 1) = z * a(n - z) + a(n + 1) - 2 * z * c(n - z + 1) - 2 * (z - 1) * c(n - z + 2) *...* 2 * c(n) when z is
     the actual iteration of k times, then the final ecuation will be:
     a(1) = [n * a(0) + a(n + 1) - 2 * summation from i = 1 to i = n of i * c(n - i + 1)] / (n + 1)*/
