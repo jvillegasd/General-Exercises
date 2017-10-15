@@ -12,4 +12,4 @@ Problems:
 8) Write a recursive function for convert a binary number to base 10 number.
 9) Write a recursive function for get the sum of all elements of an integer array.
 10) Write a recursive function for invert an integer array.
-14) UVA 10014.
+ 14) UVA 10014.
