@@ -13,4 +13,4 @@ Problems:
 9) Write a recursive function for get the sum of all elements of an integer array.
 10) Write a recursive function for invert an integer array.
 11) Write a recursive function for know if a word it's palindrome.
-12) Write a recursive function that print all possible decomposition of a number as sum of numbers smaller than itself.
+12) Write a recursive function that print all possible decomposition of a number as sum of numbers smaller than itself, formulas: N=(n-1)+1 and N=(n-2)+2=(n-2)+1+1 .
